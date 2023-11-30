@@ -52,7 +52,7 @@ main {
 }
 
 .horaEstilo {
-  font-size: 4em;
+  font-size: 4.5em;
 }
 
 .fechaEstilo {
@@ -69,4 +69,16 @@ main {
   text-align: center;
   width: 5.5rem;
   height: 4.5rem;
+}
+
+/* Small  */
+@media (min-width: 576px) and (max-width: 766px) {
+}
+
+/* Medium */
+@media (min-width: 767px) and (max-width: 991px) {
+}
+
+/* Large  */
+@media (min-width: 992px) {
 }
