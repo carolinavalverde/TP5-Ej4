@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@font-face {
+  font-family: "DS Digital";
+  src: url("../fonts/DS-DIGIB.TTF") format("truetype");
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0ac40;
+  background-image: linear-gradient(
+    43deg,
+    #f0ac40 0%,
+    #f7ea91 17%,
+    #d2d66c 39%,
+    #58e4a8 60%,
+    #74b7e6 80%,
+    #b48ed8 100%
+  );
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.containerPrincipal {
+  background-color: black;
+  color: orange;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.containerReloj {
+  background-color: black;
+  font-family: "DS Digital", sans-serif;
+  color: orange;
+  text-align: center;
+}
+
+.horaEstilo {
+  font-size: 3em;
+}
+
+.fechaEstilo {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
