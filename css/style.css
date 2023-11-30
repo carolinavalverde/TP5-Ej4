@@ -71,9 +71,9 @@ main {
   height: 4.5rem;
 }
 
-@media screen and (min-width: 576px) and (max-width: 767.9px) {
+@media screen and (max-width: 575.9px) {
   .tituloReloj {
-    font-size: 0.2rem;
+    font-size: 0.8rem;
   }
 
   .horaEstilo {
@@ -81,17 +81,20 @@ main {
   }
 
   .fechaEstilo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .cardEstilo {
-    font-size: 0.3rem;
-    width: 2.5rem;
-    height: 2.2rem;
+    width: 15%;
+    height: 5%;
+  }
+
+  .textoCardSm{
+    font-size: 0.4rem;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
   .tituloReloj {
     font-size: 1rem;
   }
@@ -110,4 +113,5 @@ main {
     height: 4.2rem;
   }
 }
+
 
